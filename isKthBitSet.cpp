@@ -12,10 +12,10 @@ bool isKthBitSet(int n, int k)
 int main() 
 { 
 	int n , k; 
-  cin>>n>>k;
+  	cin>>n>>k;
 	if(isKthBitSet(n, k))
-    cout<<"Set\n";
-   else
-    cout<<"Not Set\n";
+    		cout<<"Set\n";
+  	else
+    		cout<<"Not Set\n";
 	return 0; 
 } 
